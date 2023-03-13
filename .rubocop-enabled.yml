@@ -1,0 +1,24 @@
+Rails/ActiveRecordCallbacksOrder:
+  Enabled: true
+
+Layout/ClassStructure:
+  Enabled: true
+
+Layout/EmptyLineAfterMultilineCondition:
+  Enabled: true
+
+Style/ClassMethodsDefinitions:
+  Enabled: true
+  EnforcedStyle: self_class
+
+Style/MethodCalledOnDoEndBlock:
+  Enabled: true
+
+Style/OptionHash:
+  Enabled: true
+
+Rails/PluckId:
+  Enabled: true
+
+Rails/DefaultScope:
+  Enabled: true

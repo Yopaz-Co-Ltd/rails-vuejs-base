@@ -1,0 +1,35 @@
+Style/Documentation:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Style/MutableConstant:
+  Enabled: false
+
+Style/Lambda:
+  Enabled: false
+
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/ModuleLength:
+  Enabled: false
+
+Rails/ReflectionClassName:
+  Enabled: false
+
+Rails/BulkChangeTable:
+  Enabled: false
+
+Rails/SkipsModelValidations:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Rails/I18nLocaleTexts:
+  Enabled: false
+
+Rails/Output:
+  Enabled: false

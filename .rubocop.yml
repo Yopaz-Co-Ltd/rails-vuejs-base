@@ -1,0 +1,28 @@
+inherit_from:
+  - .rubocop-enabled.yml
+  - .rubocop-disabled.yml
+
+require:
+  - rubocop-rails
+  - rubocop-performance
+
+AllCops:
+  NewCops: enable
+  Exclude:
+    - db/schema.rb
+    - db/migrate/*
+    - config/application.rb
+    - config/environments/*
+    - "**/config.ru"
+    - bin/*
+    - vendor/bundle/**/*
+  TargetRubyVersion: 3.2.1
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+  SupportedStyles:
+    - single_quotes
+    - double_quotes
+
+Metrics/MethodLength:
+  Max: 20
