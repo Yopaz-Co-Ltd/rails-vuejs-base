@@ -26,3 +26,9 @@ Style/StringLiterals:
 
 Metrics/MethodLength:
   Max: 20
+
+Layout/LineLength:
+  Max: 100
+  Exclude:
+    - config/environments/*
+    - config/initializers/*
