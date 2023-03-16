@@ -6,14 +6,14 @@
 </template>
 
 <script>
-  import ButtonCounter from "@/src/components/ButtonCounter.vue"
+import ButtonCounter from './ButtonCounter.vue';
 
-  export default {
-    data() {
-      return {}
-    },
-    components: {
-      ButtonCounter
-    }
-  }
+export default {
+  components: {
+    ButtonCounter,
+  },
+  data() {
+    return {};
+  },
+};
 </script>
