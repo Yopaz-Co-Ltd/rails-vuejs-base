@@ -1,0 +1,25 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "extends": [
+    "plugin:vue/base",
+    "plugin:vue/vue3-essential",
+    "plugin:vue/vue3-strongly-recommended",
+    "plugin:vue/vue3-recommended",
+    "prettier"
+  ],
+  "plugins": ["vue", "prettier"],
+  "rules": {
+    "import/no-unresolved": 0,
+    "import/order": 0,
+    "vue/attributes-order": 2,
+    "vue/order-in-components": 2,
+    "vue/require-default-prop": 2
+  }
+}
